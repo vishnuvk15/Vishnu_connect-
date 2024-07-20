@@ -26,6 +26,7 @@ section:nth-child(3) {
     font-weight: 600;
     color: white;
     text-align: center;
+
 }
 .btn-primary {
   --bs-btn-font-weight: 600;
@@ -73,5 +74,4 @@ section:nth-child(3) {
   left: 0;
   bottom: 70px;
   border-radius: 3%;
-  
 }
