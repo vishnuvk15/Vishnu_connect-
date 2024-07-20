@@ -75,3 +75,62 @@ section:nth-child(3) {
   border-radius: 3%;
   
 }
+.instagram{
+align-items: center;
+height: 200px;
+width: 350px;
+background-color: black;
+border-radius: 4%;
+}
+
+.insta_prof{
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    position: relative;
+    right: 100px;
+    top: 15px;
+}
+
+.insta_name{
+    position: relative;
+    bottom: 58px;
+    left: 25px;
+    font-weight: 100;
+}
+.follow{
+    font-size: 13px;
+    font-weight: 200;
+    position: relative;
+    bottom: 50px;
+    left: 55px;
+}
+
+.fullname{
+position:relative;
+font-weight: 400;
+font-size: 15px;
+bottom: 50px;
+left: 20px;
+}
+
+.barcode{
+    font-size: 14px;
+    position: relative;
+    bottom: 55px;
+    left: 23px;
+}
+.text1{
+    font-size: 13px;
+    position: relative;
+    bottom: 65px;
+    left: 20px;
+    font-weight: 300;
+}
+.text2{
+    font-size: 13px;
+    position: relative;
+    bottom: 82px;
+    right: 25px;
+    font-weight: 300;
+}
