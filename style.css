@@ -26,4 +26,52 @@ section:nth-child(3) {
     font-weight: 600;
     color: white;
     text-align: center;
+
+}
+.btn-primary {
+  --bs-btn-font-weight: 600;
+  --bs-btn-color: var(--bs-white);
+  --bs-btn-bg: var(--bd-violet-bg);
+  --bs-btn-border-color: var(--bd-violet-bg);
+  --bs-btn-hover-color: var(--bs-white);
+  --bs-btn-hover-bg: #{shade-color($bd-violet, 10%)};
+  --bs-btn-hover-border-color: #{shade-color($bd-violet, 10%)};
+  --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+  --bs-btn-active-color: var(--bs-btn-hover-color);
+  --bs-btn-active-bg: #{shade-color($bd-violet, 20%)};
+  --bs-btn-active-border-color: #{shade-color($bd-violet, 20%)};
+}
+
+
+
+.facebook_profile{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.profile_pic{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: white;
+    border-width: 5px;
+
+    position: absolute;
+    top: 0px;
+  left: 100px;
+
+}
+
+.cover_pic{
+    height:200px ;
+    width: 400px;
+
+    position: relative;
+ 
+  
+  left: 0;
+  bottom: 70px;
+  border-radius: 3%;
 }
