@@ -81,6 +81,7 @@ height: 200px;
 width: 350px;
 background-color: black;
 border-radius: 4%;
+box-shadow: 8px 8px 20px black;
 }
 
 .insta_prof{
@@ -133,4 +134,39 @@ left: 20px;
     bottom: 82px;
     right: 25px;
     font-weight: 300;
+}
+.xdiv{
+    width: 400px;
+    height: 250px;
+    background-color: black;
+    border-radius: 3px;
+box-shadow: 8px 8px 20px black;
+}
+
+
+
+.xprofile{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 3px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    position: relative;
+   bottom: 60px;
+   right: 130px;
+    
+}
+
+.xcover{
+    height: 150px;
+    width: 400px;
+    position: relative;
+    border-radius: 3px 3px;
+}
+
+.xtext1{
+    bottom: 51px;
+    right: 100px;
+    position: relative;
 }
