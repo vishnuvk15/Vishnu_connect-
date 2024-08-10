@@ -19,7 +19,7 @@ section:nth-child(2) {
     background-image: url("./assat/image2.png");
 }
 section:nth-child(3) {
-    background-image: url("./assat/image3.png");
+    background-image: url("./assat/image3.png")
 }
 .title{
     font-size: 3em;
@@ -56,20 +56,16 @@ section:nth-child(3) {
     border-style: solid;
     border-color: white;
     border-width: 5px;
-
     position: absolute;
     top: 0px;
-  left: 100px;
+    left: 100px;
 
 }
 
 .cover_pic{
     height:200px ;
     width: 400px;
-
     position: relative;
- 
-  
   left: 0;
   bottom: 70px;
   border-radius: 3%;
